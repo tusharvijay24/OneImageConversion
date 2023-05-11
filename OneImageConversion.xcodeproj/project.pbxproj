@@ -65,8 +65,8 @@
 			children = (
 				18EC07FA2A0BAD8C0053BE77 /* AppDelegate.swift */,
 				18EC07FC2A0BAD8C0053BE77 /* SceneDelegate.swift */,
-				18EC07FE2A0BAD8C0053BE77 /* ImageConversionViewController.swift */,
 				18A433362A0BC0F10083DB71 /* Extension.swift */,
+				18EC07FE2A0BAD8C0053BE77 /* ImageConversionViewController.swift */,
 				18EC08002A0BAD8C0053BE77 /* Main.storyboard */,
 				18EC08052A0BAD8E0053BE77 /* LaunchScreen.storyboard */,
 				18EC08032A0BAD8E0053BE77 /* Assets.xcassets */,
@@ -314,11 +314,13 @@
 				DEVELOPMENT_TEAM = X92C87P8NQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneImageConversion/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need a photolibrary access.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,11 +344,13 @@
 				DEVELOPMENT_TEAM = X92C87P8NQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneImageConversion/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need a photolibrary access.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
